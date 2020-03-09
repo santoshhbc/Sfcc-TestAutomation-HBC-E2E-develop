@@ -1,0 +1,84 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "HBC Place Order Guest User scenarios",
+    "line": 1,
+    "id": "hbc-place-order-guest-user-scenarios",
+    "tags": [],
+    "uri": "sfcc/common_features/Sprint6/PlaceOrder_guest.feature",
+    "elements": [
+      {
+        "id": "hbc-place-order-guest-user-scenarios;verify-the-order-placement-using-visa-card-as-guest-user-with-one-line-item",
+        "keyword": "Scenario",
+        "line": 260,
+        "name": "Verify the order placement using VISA card as guest user with one line item",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 261,
+            "name": "I am on the website",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18745000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 262,
+            "name": "I add \"product with less price\" to bag",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 60013000000,
+              "error_message": "Error: function timed out, ensure the promise resolves within 60000 milliseconds\n    at Timeout._onTimeout (/Users/375919/PycharmProjects/Sfcc-TestAutomation-HBC/node_modules/cucumber/lib/user_code_runner.js:76:18)\n    at listOnTimeout (internal/timers.js:536:17)\n    at processTimers (internal/timers.js:480:7)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 263,
+            "name": "I click on \"minicart link\"",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 264,
+            "name": "I click on \"checkout button in cart page\"",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "cucumber.conf.js:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

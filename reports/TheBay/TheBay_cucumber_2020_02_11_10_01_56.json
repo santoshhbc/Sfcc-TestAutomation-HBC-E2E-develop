@@ -1,0 +1,241 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "HBC End to end - Place Order Registered users",
+    "line": 1,
+    "id": "hbc-end-to-end---place-order-registered-users",
+    "tags": [],
+    "uri": "sfcc/common_features/Sprint6/End_to_end_HBC_Suite_01.feature",
+    "elements": [
+      {
+        "id": "hbc-end-to-end---place-order-registered-users;verify-the-order-placement-as-french-registered-user-with-single-item-by-visa-card",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Verify the order placement as French registered user with single item by visa card",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "I am on the website",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 31897000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I login to the application with valid credentials",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 36436000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "Save \"Visa Card Details\" in My Account payment page",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 37839000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "I add \"Product with No Size\" to bag",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 23370000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "I click on \"minicart link\"",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7372000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "I click on \"checkout button in cart page\"",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1415000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "I click on - \"add new shipping address link\"",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9379000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "I enter my \"Shipping address-1\" in the textbox",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6017000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "I click on - \"checkout save shipping address button\"",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2358000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "I click on - \"checkout shipping save and continue button\"",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6953000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "I enter my \"Payment details-1\" in the textbox",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5622000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "I click on - \"checkout payment section save and continue button\"",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2438000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "I click on - \"checkout place order button\"",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2371000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "Wait for \"5000\" mili seconds",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5005000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "I notice order confirmation page thank you message should say \"Thank you!\"",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 30142000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 29,
+            "name": "Save Order ID - \"Registered User, Providing New CC and changing it from default CC\"",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 34000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "cucumber.conf.js:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

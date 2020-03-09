@@ -1,0 +1,631 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "HBC End to end - Place Order Registered/Guest users",
+    "line": 1,
+    "id": "hbc-end-to-end---place-order-registered/guest-users",
+    "tags": [],
+    "uri": "sfcc/common_features/Sprint6/End_to_end_HBC_Suite_01.feature",
+    "elements": [
+      {
+        "id": "hbc-end-to-end---place-order-registered/guest-users;verify-for-bay-website-order-paid-with-amex-for-multiple-items-having-multiple-quantities-and-%-off-promo-code-placed-by-a-registered-user-when-items-are-shipped-using-standard-by-dc.",
+        "keyword": "Scenario",
+        "line": 1968,
+        "name": "Verify for Bay website order paid with Amex for multiple items having multiple quantities and % Off Promo Code placed by a registered user when items are shipped using Standard by DC.",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 1969,
+            "name": "I am on the website",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 31074000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 1970,
+            "name": "I login to the application with valid credentials",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 39081000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 1971,
+            "name": "Wait for \"3000\" mili seconds",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3003000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 1972,
+            "name": "Remove saved addresses from my account page",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15540000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 1973,
+            "name": "Remove saved credit cards from my account page",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18183000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 1974,
+            "name": "Wait for \"3000\" mili seconds",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3004000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 1975,
+            "name": "Remove products from cart page",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 20249000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 1976,
+            "name": "Wait for \"3000\" mili seconds",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3004000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 1977,
+            "name": "Click on Start Shopping button",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 1978,
+            "name": "I add \"Product1 SFDEV-2559\" to bag",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 38376000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 1979,
+            "name": "I click on \"minicart link\"",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9177000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 1980,
+            "name": "I am adding quantity",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2132000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 1981,
+            "name": "Wait for \"1000\" mili seconds",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1004000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 1982,
+            "name": "I am adding quantity",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2110000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 1983,
+            "name": "Wait for \"6000\" mili seconds",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6003000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 1984,
+            "name": "click on home logo",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 1985,
+            "name": "Wait for \"1000\" mili seconds",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14541000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 1986,
+            "name": "I add \"Product2 SFDEV-4585\" to bag",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 24330000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 1987,
+            "name": "I click on \"minicart link\"",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14970000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 1988,
+            "name": "I am adding quantity",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2131000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 1989,
+            "name": "Wait for \"1000\" mili seconds",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1006000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 1990,
+            "name": "I am adding quantity",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2091000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 1991,
+            "name": "Wait for \"6000\" mili seconds",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6005000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 1992,
+            "name": "click on home logo",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 1993,
+            "name": "Wait for \"1000\" mili seconds",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14391000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 1994,
+            "name": "I add \"Product3 SFDEV-2561\" to bag",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 24424000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 1995,
+            "name": "I click on \"minicart link\"",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11230000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 1996,
+            "name": "I am adding quantity",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2128000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 1997,
+            "name": "Wait for \"1000\" mili seconds",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1006000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 1998,
+            "name": "I am adding quantity",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2097000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 1999,
+            "name": "Wait for \"4000\" mili seconds",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4011000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 2000,
+            "name": "I click on \"checkout button in cart page\"",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1333000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 2001,
+            "name": "Wait for \"9000\" mili seconds",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9009000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 2002,
+            "name": "I click on - \"Add_new_shipping_address_in_checout_page\"",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4320000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 2003,
+            "name": "Wait for \"3000\" mili seconds",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3010000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 2004,
+            "name": "I enter my \"Shipping address-SFDEV-2559\" in the textbox",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6238000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 2005,
+            "name": "Wait for \"2000\" mili seconds",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2008000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 2006,
+            "name": "I click on - \"checkout save shipping address button\"",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2336000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 2007,
+            "name": "Wait for \"6000\" mili seconds",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6002000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 2008,
+            "name": "Select \"Standard\" shipping method",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4198000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 2009,
+            "name": "Wait for \"10000\" mili seconds",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10003000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 2010,
+            "name": "Refresh current page",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 2011,
+            "name": "Wait for \"3000\" mili seconds",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6020000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 2012,
+            "name": "I click on - \"checkout shipping save and continue button\"",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9276000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 2013,
+            "name": "I enter my \"Amex Card Details\" in the textbox",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10967000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 2014,
+            "name": "I click on - \"checkout payment section save and continue button\"",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2403000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "cucumber.conf.js:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

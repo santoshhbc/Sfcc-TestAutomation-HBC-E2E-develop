@@ -1,0 +1,68 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "HBC End to end - Place Order Registered users",
+    "line": 1,
+    "id": "hbc-end-to-end---place-order-registered-users",
+    "tags": [],
+    "uri": "sfcc/common_features/Sprint6/End_to_end_HBC_Suite_01.feature",
+    "elements": [
+      {
+        "id": "hbc-end-to-end---place-order-registered-users;verify-order-placed-by-a-guest-user-for-multi-items-single-quantity-paid-by-visa-using-nextbusinessday-delivery.",
+        "keyword": "Scenario",
+        "line": 252,
+        "name": "Verify order placed by a guest user for Multi items Single quantity paid by VISA using NextBusinessDay delivery.",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 253,
+            "name": "I am on the website",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 28222000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 254,
+            "name": "I add \"Product with less15$\" to bag",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 22185000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 255,
+            "name": "Update the product quantity to \"2\" in PDP",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "cucumber.conf.js:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

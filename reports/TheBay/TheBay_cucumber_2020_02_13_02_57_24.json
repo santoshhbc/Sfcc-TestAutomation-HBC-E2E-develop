@@ -1,0 +1,134 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "HBC End to end - Place Order Registered users",
+    "line": 1,
+    "id": "hbc-end-to-end---place-order-registered-users",
+    "tags": [],
+    "uri": "sfcc/common_features/Sprint6/End_to_end_HBC_Suite_01.feature",
+    "elements": [
+      {
+        "id": "hbc-end-to-end---place-order-registered-users;verify-order-paid-with-paypal-for-smulti-line-multi-quantity-placed-by-a-guest-user.",
+        "keyword": "Scenario",
+        "line": 212,
+        "name": "Verify order paid with Paypal for smulti line multi quantity placed by a guest user.",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 213,
+            "name": "I am on the website",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 31115000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 215,
+            "name": "I add \"Product workaround\" to bag",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 36904000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 216,
+            "name": "I click on \"minicart link\"",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10519000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 217,
+            "name": "Login to paypal",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 60007000000,
+              "error_message": "Error: function timed out, ensure the promise resolves within 60000 milliseconds\n    at Timeout._onTimeout (/Users/375919/PycharmProjects/Sfcc-TestAutomation-HBC/node_modules/cucumber/lib/user_code_runner.js:76:18)\n    at listOnTimeout (internal/timers.js:536:17)\n    at processTimers (internal/timers.js:480:7)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 218,
+            "name": "Wait for \"20000\" mili seconds",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 219,
+            "name": "I click on - \"checkout place order button\"",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 220,
+            "name": "I notice order confirmation page thank you message should say \"Thank you!\"",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 221,
+            "name": "Verify \"order confirmation page order id\" is displayed",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "cucumber.conf.js:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

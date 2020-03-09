@@ -1,0 +1,332 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "HBC End to end - Place Order Registered/Guest users using split cards",
+    "line": 1,
+    "id": "hbc-end-to-end---place-order-registered/guest-users-using-split-cards",
+    "tags": [],
+    "uri": "sfcc/common_features/HBC_End2End/End_to_end_Gift_Cards_Flow.feature",
+    "elements": [
+      {
+        "id": "hbc-end-to-end---place-order-registered/guest-users-using-split-cards;sfdev-3756-verify-website-guest-bay-order-placement-for-a-mastercard+gc-where-the-entire-order-amount-is-covered-by-gc,-item-shipped-from-dc-where-billing-address-is-uk.",
+        "keyword": "Scenario",
+        "line": 359,
+        "name": "SFDEV-3756 Verify website guest Bay order placement for a Mastercard+GC where the entire order amount is covered by GC, item shipped from DC where billing address is UK.",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 360,
+            "name": "I am on the website",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 44290000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 361,
+            "name": "Wait for \"2000\" mili seconds",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2005000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 362,
+            "name": "I add \"Product1 SFDEV-3756\" to bag",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 37894000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 363,
+            "name": "Wait for \"2000\" mili seconds",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2004000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 364,
+            "name": "I click on \"minicart link\"",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10726000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 365,
+            "name": "Wait for \"2000\" mili seconds",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2004000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 366,
+            "name": "I click on \"checkout button in cart page\"",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1361000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 367,
+            "name": "Wait for \"2000\" mili seconds",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2006000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 368,
+            "name": "I click on \"checkout as guest button in cart page\"",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10000000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 369,
+            "name": "Wait for \"3000\" mili seconds",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3002000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 370,
+            "name": "I enter my \"Shipping address-SFDEV-3756\" in the textbox",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7076000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 371,
+            "name": "Wait for \"3000\" mili seconds",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3005000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 372,
+            "name": "I click on - \"checkout shipping save and continue button\"",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2406000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 373,
+            "name": "I enter my \"Master Card Details\" in the textbox",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15746000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 374,
+            "name": "Wait for \"2000\" mili seconds",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2003000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 375,
+            "name": "I click on - \"different billing address checkbox\"",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2371000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 376,
+            "name": "Wait for \"2000\" mili seconds",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2002000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 377,
+            "name": "I enter my \"Billing address-SFDEV-3756\" in the textbox",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6064000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 378,
+            "name": "Wait for \"2000\" mili seconds",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2006000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 379,
+            "name": "I click on - \"add gift card button\"",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2327000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 380,
+            "name": "I enter my \"Gift Card Number-1-SFDEV-3756\" in the textbox",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5363000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 381,
+            "name": "Wait for \"3000\" mili seconds",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3007000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 382,
+            "name": "I click on - \"checkout payment section save and continue button\"",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2402000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "cucumber.conf.js:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

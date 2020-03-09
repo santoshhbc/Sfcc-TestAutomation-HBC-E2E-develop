@@ -1,0 +1,210 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "HBC End to end - Place Order Registered users",
+    "line": 1,
+    "id": "hbc-end-to-end---place-order-registered-users",
+    "tags": [],
+    "uri": "sfcc/common_features/Sprint6/End_to_end_HBC_Suite_01.feature",
+    "elements": [
+      {
+        "id": "hbc-end-to-end---place-order-registered-users;verify-order-paid-using-visa-for-single-line-having-multiple-quantities-placed-by-a-guest-user.",
+        "keyword": "Scenario",
+        "line": 96,
+        "name": "Verify order paid using Visa for single line having multiple quantities placed by a guest user.",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 97,
+            "name": "I am on the website",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 28404000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 98,
+            "name": "I add \"Product 9 Months SFDEV-2617\" to bag",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 3000000,
+              "error_message": "TypeError: Cannot read property 'push' of undefined\n    at SupportCodeLibraryBuilder.defineStep (/Users/375919/PycharmProjects/Sfcc-TestAutomation-HBC/node_modules/cucumber/lib/support_code_library_builder/index.js:57:40)\n    at register (/Users/375919/PycharmProjects/Sfcc-TestAutomation-HBC/utility/helper.js:10:10)\n    at addecofeeItemToBag (/Users/375919/PycharmProjects/Sfcc-TestAutomation-HBC/sfcc/common_definitions/checkout.js:402:13)\n    at World.<anonymous> (/Users/375919/PycharmProjects/Sfcc-TestAutomation-HBC/sfcc/common_definitions/checkout.js:300:29)\n    at Function.run (/Users/375919/PycharmProjects/Sfcc-TestAutomation-HBC/node_modules/cucumber/lib/user_code_runner.js:37:21)\n    at Object.run (/Users/375919/PycharmProjects/Sfcc-TestAutomation-HBC/node_modules/cucumber/lib/runtime/step_runner.js:52:52)\n    at async TestCaseRunner.aroundTestStep (/Users/375919/PycharmProjects/Sfcc-TestAutomation-HBC/node_modules/cucumber/lib/runtime/test_case_runner.js:185:28)\n    at async /Users/375919/PycharmProjects/Sfcc-TestAutomation-HBC/node_modules/cucumber/lib/runtime/test_case_runner.js:280:7"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 99,
+            "name": "I click on \"minicart link\"",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 100,
+            "name": "I am adding quantity",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 101,
+            "name": "Wait for \"4000\" mili seconds",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 102,
+            "name": "I click on \"checkout button in cart page\"",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 103,
+            "name": "I click on \"checkout as guest button in cart page\"",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 104,
+            "name": "I enter my \"Shipping address-1\" in the textbox",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 105,
+            "name": "I click on - \"checkout shipping save and continue button\"",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 106,
+            "name": "I enter my \"Payment details-1\" in the textbox",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 107,
+            "name": "I click on - \"checkout payment section save and continue button\"",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 108,
+            "name": "I click on - \"checkout place order button\"",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 109,
+            "name": "Wait for \"4000\" mili seconds",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 110,
+            "name": "I notice order confirmation page thank you message should say \"Thank you!\"",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 111,
+            "name": "Save Order ID - \"Guest User with VISA card\"",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "cucumber.conf.js:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

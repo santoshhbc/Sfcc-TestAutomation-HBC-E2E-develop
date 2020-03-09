@@ -1,0 +1,98 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "HBC Place Order Registered user scenarios",
+    "line": 1,
+    "id": "hbc-place-order-registered-user-scenarios",
+    "tags": [],
+    "uri": "sfcc/common_features/Sprint6/PlaceOrder_registered.feature",
+    "elements": [
+      {
+        "id": "hbc-place-order-registered-user-scenarios;verify-the-functionality-on-click-of-the-welcome,-firstname-link-as-reg-user.",
+        "keyword": "Scenario",
+        "line": 252,
+        "name": "Verify the functionality on click of the Welcome, Firstname link as reg user.",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 259,
+            "name": "I am on the website",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 21628000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 260,
+            "name": "I hover on \"signin link\"",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2051000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 261,
+            "name": "I click on \"SignInLink\"",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4872000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 262,
+            "name": "I login to the application with valid credentials",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 32601000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 263,
+            "name": "Navigate to My Account \"Profile\" Page from left nav",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15077000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "cucumber.conf.js:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

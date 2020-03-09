@@ -1,0 +1,32 @@
+{
+  "name": "bm-core-regression",
+  "version": "1.0.0",
+  "description": "nightwatch suite for core regression",
+  "main": "index.js",
+  "scripts": {
+    "regression-test": "mkdirp report && cucumber-js --require cucumber.conf.js --require sfcc/TheBay/step-definitions --format node_modules/cucumber-pretty --format json:report/cucumber_report.json",
+    "test": "sh ./bin/test.sh",
+    "test:o5a": "SMOKETEST_BANNER=O5A nightwatch",
+    "test:saks": "SMOKETEST_BANNER=SAKS nightwatch"
+  },
+  "author": "team totoro",
+  "license": "ISC",
+  "devDependencies": {
+    "chromedriver": "^79",
+    "cucumber": "^6.0.5",
+    "cucumber-html-reporter": "^5.0.2",
+    "cucumber-pretty": "^6.0.0",
+    "geckodriver": "^1.19.1",
+    "mkdirp": "^0.5.1",
+    "moment": "^2.24.0",
+    "multiple-cucumber-html-reporter": "^1.13.2",
+    "nightwatch": "^1.3.1",
+    "nightwatch-api": "^3.0.1",
+    "nodemon": "^2.0.2",
+    "shelljs": "^0.8.3"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "slack-notify": "^0.1.7"
+  }
+}

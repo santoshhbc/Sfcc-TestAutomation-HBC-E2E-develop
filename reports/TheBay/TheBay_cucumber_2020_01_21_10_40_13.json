@@ -1,0 +1,85 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "HBC Place Order Registered user scenarios",
+    "line": 1,
+    "id": "hbc-place-order-registered-user-scenarios",
+    "tags": [],
+    "uri": "sfcc/common_features/Sprint6/PlaceOrder_registered.feature",
+    "elements": [
+      {
+        "id": "hbc-place-order-registered-user-scenarios;verify-order-history-page-scenarios",
+        "keyword": "Scenario",
+        "line": 241,
+        "name": "Verify Order History page scenarios",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 242,
+            "name": "I am on the website",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 20753000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 243,
+            "name": "I login to the application with valid credentials",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 35055000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 244,
+            "name": "I navigate to my account page",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10330000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 246,
+            "name": "Navigate to My Account \"ORDER HISTORY\" Page",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12167000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "cucumber.conf.js:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

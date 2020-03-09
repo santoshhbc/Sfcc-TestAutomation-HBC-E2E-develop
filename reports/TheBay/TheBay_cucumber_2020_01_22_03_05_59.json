@@ -1,0 +1,85 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "HBC Place Order Registered user scenarios",
+    "line": 1,
+    "id": "hbc-place-order-registered-user-scenarios",
+    "tags": [],
+    "uri": "sfcc/common_features/Sprint6/PlaceOrder_registered.feature",
+    "elements": [
+      {
+        "id": "hbc-place-order-registered-user-scenarios;verify-order-history-page-scenarios",
+        "keyword": "Scenario",
+        "line": 241,
+        "name": "Verify Order History page scenarios",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 242,
+            "name": "I am on the website",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 19018000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 243,
+            "name": "I login to the application with valid credentials",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 34725000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 244,
+            "name": "check order history",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 39090000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 245,
+            "name": "logout of the account",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12225000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "cucumber.conf.js:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

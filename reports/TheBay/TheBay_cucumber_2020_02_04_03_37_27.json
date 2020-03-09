@@ -1,0 +1,75 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "HBC Place Order Guest User scenarios",
+    "line": 1,
+    "id": "hbc-place-order-guest-user-scenarios",
+    "tags": [],
+    "uri": "sfcc/common_features/Sprint6/PlaceOrder_guest.feature",
+    "elements": [
+      {
+        "id": "hbc-place-order-guest-user-scenarios;verify-the-order-placement-using-visa-card-as-guest-user-with-one-line-item",
+        "keyword": "Scenario",
+        "line": 260,
+        "name": "Verify the order placement using VISA card as guest user with one line item",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 261,
+            "name": "I am on website",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 262,
+            "name": "I Add \"product with less price\" to bag",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 263,
+            "name": "I click on \"minicart link\"",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 264,
+            "name": "I click on \"checkout button in cart page\"",
+            "match": {
+              "location": "utility/helper.js:10"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "cucumber.conf.js:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
